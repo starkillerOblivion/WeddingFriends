@@ -1,0 +1,34 @@
+﻿<Window x:Class="WeddingFriends.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeddingFriends"
+        mc:Ignorable="d"
+        Title="Сервис аренды друзей для свадьбы" Height="600" Width="900">
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Background="#FFEBCD" Padding="10">
+            <StackPanel HorizontalAlignment="Center">
+                <Ellipse Width="80" Height="80">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/Images/icon.png"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <TextBlock Text="Свадебные актёры" FontSize="28" FontWeight="Bold" Foreground="#FF69B4" TextAlignment="Center"/>
+                <TextBlock Text="Наймите идеальных статистов для вашего торжества" FontSize="16" Foreground="#555" TextAlignment="Center"/>
+                <TextBlock Text="⭐ 4.9 (на основе 230 отзывов) | 📞 +7 (999) 888-77-66" FontSize="14" Foreground="#777" TextAlignment="Center"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel DockPanel.Dock="Left" Width="220" Background="#FF69B4" Margin="0,0,10,0">
+            <Button Content="Каталог актёров" Name="btnCatalog" Click="btnCatalog_Click" Margin="5" Height="50"/>
+            <Button Content="Корзина" Name="btnCart" Click="btnCart_Click" Margin="5" Height="50"/>
+            <Button Content="Профиль" Name="btnProfile" Click="btnProfile_Click" Margin="5" Height="50"/>
+            <Button Content="Админ-панель" Name="btnAdmin" Click="btnAdmin_Click" Margin="5" Height="50"/>
+            <Button Content="Кастинг-директор" Name="btnCasting" Click="btnCasting_Click" Margin="5" Height="50"/>
+            <Button Content="Выход" Name="btnExit" Click="btnExit_Click" Margin="5" Height="50"/>
+        </StackPanel>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

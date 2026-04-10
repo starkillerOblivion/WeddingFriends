@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2c64b392cfaa465f9bf0d11bcf6d7876" Name="Diagram1">
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.ActorRoleMapping" Width="1.5" PointX="12.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.ActorRoles" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.Actors" Width="1.5" PointX="7.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.AdminLogs" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.Customers" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.OrderDetails" Width="1.5" PointX="9.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.Orders" Width="1.5" PointX="7.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.Roles" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.ScriptRequiredRoles" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.Users" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeddingFriendsRentalModel.WeddingScripts" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__ActorRole__Actor__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__ActorRole__Actor__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__OrderDeta__Actor__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__ScriptReq__Actor__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__OrderDeta__Actor__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__AdminLogs__Admin__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__Customers__UserI__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__Orders__Customer__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__OrderDeta__Order__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__Orders__ScriptID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__Users__RoleID__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="WeddingFriendsRentalModel.FK__ScriptReq__Scrip__4E88ABD4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

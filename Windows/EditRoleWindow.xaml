@@ -1,0 +1,17 @@
+﻿<Window x:Class="WeddingFriends.Windows.EditRoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeddingFriends.Windows"
+        mc:Ignorable="d"
+        Title="EditRoleWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock Text="Название роли:"/>
+        <TextBox x:Name="tbRoleName"/>
+        <TextBlock Text="Базовая ставка (за час):" Margin="0,10,0,0"/>
+        <TextBox x:Name="tbBaseRate"/>
+        <Button Content="Сохранить" Click="BtnSave_Click" Margin="0,20,0,0" Background="#FF69B4"/>
+        <Button Content="Отмена" Click="BtnCancel_Click"/>
+    </StackPanel>
+</Window>

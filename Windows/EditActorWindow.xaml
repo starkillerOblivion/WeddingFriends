@@ -1,0 +1,25 @@
+﻿<Window x:Class="WeddingFriends.Windows.EditActorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeddingFriends.Windows"
+        mc:Ignorable="d"
+        Title="EditActorWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock Text="ФИО:"/>
+        <TextBox x:Name="tbFullName"/>
+        <TextBlock Text="Возраст:"/>
+        <TextBox x:Name="tbAge"/>
+        <TextBlock Text="Умеет пить?"/>
+        <CheckBox x:Name="chkDrinkable"/>
+        <TextBlock Text="Рейтинг (0-5):"/>
+        <TextBox x:Name="tbRating"/>
+        <TextBlock Text="Дата найма:"/>
+        <DatePicker x:Name="dpHireDate"/>
+        <TextBlock Text="Роли (выберите несколько):"/>
+        <ListBox x:Name="lbRoles" SelectionMode="Multiple" DisplayMemberPath="RoleName" Height="150"/>
+        <Button Content="Сохранить" Click="BtnSave_Click" Margin="0,15,0,0" Background="#FF69B4"/>
+        <Button Content="Отмена" Click="BtnCancel_Click"/>
+    </StackPanel>
+</Window>
